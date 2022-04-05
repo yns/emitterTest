@@ -1,0 +1,22 @@
+{
+  "name": "emittertest",
+  "version": "1.0.0",
+  "description": "Test Emitter",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development --open --hot"
+  },
+  "author": "Yunus Emre Çavuşoğlu",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter3": "^4.0.7",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.71.0",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
